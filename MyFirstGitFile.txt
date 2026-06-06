@@ -1,0 +1,7 @@
+git config --global user.name "sowdha-t"
+git config --global user.email "Sowdha.perumal@gmail.coms"
+git config --global init.defaultBranch main
+git init
+git status
+git add "MyFirstGitFile.txt"
+git commit -m "commiting MyFirstGitFile.txt"
