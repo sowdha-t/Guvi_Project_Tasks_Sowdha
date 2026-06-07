@@ -1,5 +1,6 @@
 git config --global user.name "sowdha-t"
-git config --global user.email "Sowdha.perumal@gmail.coms"
+git config --global user.email "sowdha.perumal@gmail.com"
+git config --list
 git config --global init.defaultBranch main
 git init
 git status
