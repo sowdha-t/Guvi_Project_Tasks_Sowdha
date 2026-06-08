@@ -13,3 +13,26 @@ git commit -m "commiting MyFirstGitFile.txt"
 git remote -v  # tells us weather it is already linked to GitHub
 
 git push -u origin main - uploads the file to the remote repo ( use only for first time ) later u can use only git push
+
+
+
+#  Branching concepts
+
+git branch    # Lists all branches in your project
+git branch my-first-branch  (Branch name cannot have spaces) # Creates a new branch named my-first-branch
+git branch my-second-branch (creates another branch)
+
+git switch my-first-branch #switched to first branch
+
+--Extra Notes  (create a new file or edit an existing one, and save your changes locally using your Phase 1 commands:
+git add .git commit -m "Add new login automation scriptb"Note: This save only exists on your my-first-branch.
+ If you switch back to main, this new file will literally vanish from your computer folder until you switch back!)
+
+Merge changes back to main Once your new test script works perfectly and you want to combine it with your main project:
+Switch back to your main trunk: git switch main Pull the changes into main: 
+
+git merge my-first-branch
+
+Delete the branch (Optional)Once merged, you no longer need the side branch:
+
+git branch -d my-first-branch
