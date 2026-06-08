@@ -36,3 +36,25 @@ git merge my-first-branch
 Delete the branch (Optional)Once merged, you no longer need the side branch:
 
 git branch -d my-first-branch
+
+-----------------------------------------------------------
+
+To reinstate the deleted branch, use the command
+
+git reflog  #USed to see complete history of every single action taken in the repo
+
+find the commit hash
+
+git checkout -b my-first-branch aec3350
+
+----------------------------------------------------
+
+To push the branch into GitHub, follow the command
+
+git push --set-upstream origin my-first-branch
+
+you only have to type that long command the very first time you push a new branch. for any future updates while working inside my-first-branch, we can simply do 
+
+git push
+
+-------------------------------------------------------------
