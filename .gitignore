@@ -1,0 +1,14 @@
+# OS Generated Files (Windows specific)
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Automation Testing Logs & Reports
+*.log
+test-output/
+target/
+allure-results/
+
+# Dependency Folders (Never upload these!)
+node_modules/
+.env
