@@ -3,6 +3,13 @@ git config --global user.email "sowdha.perumal@gmail.com"
 git config --list
 git config --global init.defaultBranch main
 git init
+
+-- The above commands are used only for first time to initiate a connection with GitHub--
+
 git status
 git add "MyFirstGitFile.txt"
 git commit -m "commiting MyFirstGitFile.txt"
+
+git remote -v  # tells us weather it is already linked to GitHub
+
+git push -u origin main - uploads the file to the remote repo ( use only for first time ) later u can use only git push
