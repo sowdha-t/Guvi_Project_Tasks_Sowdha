@@ -6,6 +6,12 @@ Git Amend
 
 git commit --amend -m "one line added in second file"
 
+Git Revert
+
+git revert <7 character hash>
 
 
-this line am intentionaly creating as a error
+Git Reset
+
+We can go back and forth in commit with 7 character hashcode
+
