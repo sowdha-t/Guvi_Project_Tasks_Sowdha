@@ -4,3 +4,8 @@ In Second Day Git lesson, i am going to add about git amend, git revert and git 
 
 Git Amend
 
+git commit --amend -m "one line added in second file"
+
+
+
+this line am intentionaly creating as a error
