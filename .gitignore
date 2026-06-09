@@ -12,3 +12,22 @@ allure-results/
 # Dependency Folders (Never upload these!)
 node_modules/
 .env
+
+#For python related files
+__pycache__/
+*.py[cod]
+*$py.class
+
+#Python virtual environments
+venv/
+.venv/
+env/
+
+#Playwright specific files
+test-results/
+playwright-report/
+.playwright/
+
+#Selenium/Driver logs
+geckodriver.log
+chromedriver.log

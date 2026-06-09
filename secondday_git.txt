@@ -1,1 +1,6 @@
 Second day git will be added soon
+
+In Second Day Git lesson, i am going to add about git amend, git revert and git reset
+
+Git Amend
+
